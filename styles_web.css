@@ -1,0 +1,51 @@
+* {
+  outline: red dashed 1px;
+}
+
+body {
+  background-color: #f2ebe3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  background-color: white;
+  height: 450px;
+  width: 600px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  height: 100%;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.category {
+  color: #6c7289;
+  letter-spacing: 5px;
+}
+
+.description {
+  color: #6c7289;
+}
+
+.new_price {
+  color: #3c8067;
+}
+
+.old_price {
+  color: #6c7289;
+  text-decoration: line-through;
+}
+
+button {
+  border-radius: 10px;
+  background-color: #3c8067;
+  color: white;
+}
+
+/*# sourceMappingURL=styles_web.css.map */

@@ -1,0 +1,47 @@
+$background_color: #f2ebe3
+$green_color: #3c8067
+$main_text_color: #1c232b
+$text_color: #6c7289
+
+*
+	outline: red dashed 1px
+	
+body
+	background-color: $background_color
+	display: flex
+	justify-content: center
+	align-items: center
+	height: 100vh
+	
+main
+	background-color: white
+	height: 450px
+	width: 600px
+	border-radius: 10px
+	display: flex
+	flex-direction: row
+	
+img
+	//object-fit: contain
+	height: 100%
+	//width: 300px
+	border-radius: 10px 0px 0px 10px
+	
+.category
+	color: $text_color
+	letter-spacing: 5px
+	
+.description
+	color: $text_color
+	
+.new_price
+	color: $green_color
+	
+.old_price
+	color: $text_color
+	text-decoration: line-through
+	
+button
+	border-radius: 10px
+	background-color: $green_color
+	color: white
